@@ -1,0 +1,36 @@
+@import './fonts';
+@import './colors';
+@import './mixins';
+@import './layouts';
+
+.skill-card {
+
+    height: 50vh;
+    width: 15%;
+    margin: 1rem 1rem;
+
+    text-align: center;
+
+    @include boxShadow();
+
+    h3 {
+        @include cardTitle();
+        margin-top: 1.5rem;
+    }
+
+    h5 {
+        @include cardSubTitle();
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+
+        li {
+            text-align: left;
+            margin-left: 2rem;
+            margin-top: .2rem;
+        }
+    }
+}

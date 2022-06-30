@@ -1,0 +1,48 @@
+@import './colors';
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+
+    position: fixed;
+    width: 90%;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    list-style: none;
+
+    .active {
+        transform: scale(120%);
+        background: $mainGradient;
+        color: white;
+
+        &:hover {
+            transform: scale(120%);
+        background: $mainGradient;
+        color: white;
+        }
+    }
+
+    a {
+        font-size: 1.5rem;
+        text-align: center;
+        
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        transition: .5s ease-in-out;
+        
+        text-decoration: none;
+        color: #333;
+
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(120%);
+            background: rgb(240, 240, 240);
+        }
+    }
+}
