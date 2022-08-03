@@ -1,0 +1,29 @@
+/* GRADIENTS: */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+section {
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #ffe259, #ffa751);
+  padding: 1rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=App.css.map */

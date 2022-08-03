@@ -1,5 +1,6 @@
 import React from 'react'
-import '../styles/Portfolio.scss'
+import '../styles/Portfolio.css'
+import Ecommerce from '../assets/Ecommerce3.png'
 
 const data = [
   {
@@ -7,8 +8,8 @@ const data = [
     title: "Headphones Ecommerce",
     subTitle: "MERN Stack",
     techs: "React, Node JS, MongoDB, Express, Agile (Scrum)",
-    preImg: "",
-    repo: "",
+    preImg: Ecommerce,
+    repo: "https://github.com/IanWallenberg/e-commerce-website",
     demo: ""
   },
   {
@@ -28,7 +29,16 @@ const data = [
     preImg: "",
     repo: "",
     demo: ""
-  }
+  },
+  {
+    id: "4",
+    title: "Simple Quiz",
+    subTitle: "Frontend",
+    techs: "Typescript, React, Styled Components",
+    preImg: "",
+    repo: "",
+    demo: ""
+  },
 ]
 
 const Portfolio = () => {
@@ -47,11 +57,11 @@ const Portfolio = () => {
           <h5>{subTitle}</h5>
           <p>{techs}</p>
           <div className='buttons'>
-            <a className='btn-primary' href={repo}>Repository</a>
-            <a className='btn-primary' href={demo}>Live Demo</a>
+            <a className='btn-primary' href={repo} target={'_blank'}>Repository</a>
+            <a className='btn-primary' href={demo} target={'_blank'}>Live Demo</a>
             </div>
           </article>
-          )})};
+          )})}
         </div>
     </section>
   )

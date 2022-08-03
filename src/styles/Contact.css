@@ -1,0 +1,59 @@
+.contact-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 18rem;
+  margin-left: 2rem;
+}
+.contact-options .contact-option {
+  padding: 1.2rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid lightgrey;
+  background: transparent;
+}
+.contact-options .contact-option:hover {
+  background: transparent;
+}
+.contact-options .contact-option .contact-option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.contact-options .contact-option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.7rem;
+}
+.contact-options .contact-option h5 {
+  font-weight: 200;
+  margin-top: 0.3rem;
+}
+
+/* ----- FORM styling ----- */
+form {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background: transparent;
+  border: 1.5px solid lightgrey;
+  resize: none;
+  font-size: 1rem;
+}/*# sourceMappingURL=Contact.css.map */

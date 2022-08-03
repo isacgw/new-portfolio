@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Skills.scss'
+import '../styles/Skills.css'
 
 const Skills = () => {
   return (
@@ -16,10 +16,11 @@ const Skills = () => {
               <li>Sass/SCSS</li>
               <li>Next JS</li>
             </ul>
-            <h5>What I want to learn:</h5>
+            <h5>What I want to learn next:</h5>
             <ul className='skills'>
               <li>TypeScript</li>
-              <li>CMS'es</li>
+              <li>Gatsby</li>
+              <li>Tailwind CSS</li>
             </ul>
           </article>
 
@@ -30,10 +31,10 @@ const Skills = () => {
               <li>Node JS</li>
               <li>MongoDB</li>
             </ul>
-            <h5>What I want to learn:</h5>
+            <h5>What I want to learn next:</h5>
             <ul className='skills'>
               <li>Python</li>
-              <li>Java</li>
+              <li>MySQL</li>
             </ul>
           </article>
 
@@ -45,9 +46,10 @@ const Skills = () => {
               <li>Photoshop</li>
               <li>Illustrator</li>
             </ul>
-            <h5>What I want to learn:</h5>
+            <h5>What I want to learn next:</h5>
             <ul className='skills'>
               <li>AdobeXD</li>
+              <li>UX/UI principles</li>
             </ul>
           </article>
 

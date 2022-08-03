@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+/* GRADIENTS: */
+#header {
+  background: url("../assets/bg-desktop-10.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+}
+header .content {
+  margin-top: 10rem;
+  width: 40%;
+}
+header .content h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  display: inline-block;
+}
+header .content .obi-wan {
+  display: inline;
+  height: 5rem;
+}
+header .content h4 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+header .content p {
+  color: orange;
+}
+header .content button {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+header .content button:hover {
+  transform: scale(120%);
+  transition: 0.5s ease-in-out;
+}
+header .img {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .img .img-container {
+  background: green;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+header .img .img-container img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header .img .social-icons {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  color: #ffa751;
+}
+header .img .social-icons svg {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+header .img .social-icons svg:hover {
+  transform: scale(120%);
+  transition: 0.5s ease-in-out;
+}/*# sourceMappingURL=Home.css.map */

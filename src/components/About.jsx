@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFacebookMessenger } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import ProfileImage from '../assets/Profile-Image.png'
-import '../styles/About.scss'
+import '../styles/About.css'
 
 const About = () => {
   return (

@@ -6,7 +6,7 @@ import Skills from './Skills'
 import About from './About'
 import Contact from './Contact'
 import Ranking from './Ranking'
-import '../styles/Nav.scss'
+import '../styles/Nav.css'
 
 const Nav = () => {
 
@@ -27,8 +27,8 @@ const [activeTab, setActiveTab] = useState("#");
         <a href='#section-two' className={activeTab === 'contact' ? 'active' : ''}
         onClick={() => setActiveTab('contact')}>contact</a>
 
-<a href='#section-two' className={activeTab === 'ranking' ? 'active' : ''}
-        onClick={() => setActiveTab('ranking')}>ranking stuff</a>
+{/* <a href='#section-two' className={activeTab === 'ranking' ? 'active' : ''}
+        onClick={() => setActiveTab('ranking')}>ranking stuff</a> */}
 
     </ul>
     { activeTab === 'projects' && <div id='section-two'>
@@ -47,9 +47,9 @@ const [activeTab, setActiveTab] = useState("#");
               <Contact />
             </div> }
 
-    { activeTab === 'ranking' && <div id='section-two'>
+    {/* { activeTab === 'ranking' && <div id='section-two'>
               <Ranking />
-            </div> }
+            </div> } */}
     </div>
   )
 }

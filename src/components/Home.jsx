@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfileImage from '../assets/Profile-Image.png'
-import '../styles/Home.scss'
+import '../styles/Home.css'
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFacebookMessenger } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import ObiWan from '../assets/obi-wan.png'

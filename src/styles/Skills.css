@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+/* GRADIENTS: */
+.skill-card {
+  height: 50vh;
+  width: 15%;
+  margin: 1rem 1rem;
+  text-align: center;
+  box-shadow: -3px 4px 10px 3px rgba(0, 0, 0, 0.51);
+}
+.skill-card h3 {
+  font-size: 1.7rem;
+  margin: 0.5rem 0;
+  margin-top: 1.5rem;
+}
+.skill-card h5 {
+  font-size: 1.2rem;
+  opacity: 20%;
+}
+.skill-card .skills {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.skill-card .skills li {
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+}/*# sourceMappingURL=Skills.css.map */
