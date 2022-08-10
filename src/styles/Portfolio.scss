@@ -18,7 +18,7 @@
     }
 }
 
-.flex-row-center {
+.cards-container {
     @include flexRowCenter();
     gap: 2rem;
     flex-wrap: wrap;
@@ -82,10 +82,37 @@
 
             transition: .5s ease-in-out;
 
-            :hover {
-                @include btnHoverAnimation();
-                font-size: 2rem;
+            &:hover {
+                font-size: 1.2rem;
             }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    #portfolio {
+
+
+        .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .card {
+            width: 90%;
+            height: 55vh;
+
+            .buttons {
+
+                font-size: 1.5rem;
+            }
+        }
+
+        :nth-child(5) {
+            margin-bottom: 8rem;
+        }
         }
     }
 }

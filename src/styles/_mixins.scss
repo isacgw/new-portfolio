@@ -6,6 +6,12 @@
     
 }
 
+@mixin iconHover {
+   transform: scale(110%);
+   transition: .5s ease-in-out;
+   cursor: pointer;
+}
+
 @mixin boxShadow {
 
    box-shadow: -3px 4px 10px 3px rgba(0,0,0,0.51);

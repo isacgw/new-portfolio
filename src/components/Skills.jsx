@@ -4,8 +4,8 @@ import '../styles/Skills.css'
 const Skills = () => {
   return (
     <section>
-        <h1>my dev skills</h1>
-        <div className="flex-row-center">
+        <h1>my skills</h1>
+        <div className="cards-container">
 
           <article className="skill-card">
             <h3>FRONTEND</h3>
@@ -38,13 +38,14 @@ const Skills = () => {
             </ul>
           </article>
 
-          <article className="skill-card">
+          <article className="skill-card last">
             <h3>DESIGN</h3>
             <h5>What I Know:</h5>
             <ul className='skills'>
               <li>Figma</li>
               <li>Photoshop</li>
               <li>Illustrator</li>
+              <li>3D-modeling and visualization</li>
             </ul>
             <h5>What I want to learn next:</h5>
             <ul className='skills'>

@@ -22,17 +22,19 @@ const About = () => {
         </div>
         <div className="paragraphs">
           <article>
-            <h3>A little history:</h3>
+            <h3>A LITTLE HISTORY:</h3>
             <p>I've been studying both economics and 3D-visualization but realized nothing of
               that was for me. During the pandemic I experimented with an old hobby of mine - programming.
               Then I knew this is what I want to do - finally!
             </p>
           </article>
           <article>
-            <h3>Why Frontend?</h3>
-            <p>The combination between the technical aspects of programming with
-              the creative challenges of visualizing something appealing is what drew me to Frontend development
-              specifically. I'm passionate about both parts and I feel lucky I can work with them.
+            <h3>WHY FRONTEND?</h3>
+            <p>When I found out that you could combine designing with programming it almost felt
+              a little too good to be true. It's quite simple actually, I like designing and I enjoy
+              programming and Frontend development is the best of both worlds. From a personal perspective
+              working in the Frontend field and environment that comes with it would give me the opportunity to live the life I 
+              want to live - at work but also outside of it.
             </p>
           </article>
           <article>

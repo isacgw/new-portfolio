@@ -11,14 +11,14 @@
   padding-bottom: 2rem;
 }
 
-.flex-row-center {
+.cards-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
-.flex-row-center :hover {
+.cards-container :hover {
   cursor: pointer;
 }
 
@@ -63,8 +63,24 @@
   margin: 0 0.5rem;
   transition: 0.5s ease-in-out;
 }
-.card .buttons a :hover {
-  transform: scale(120%);
-  transition: 0.5s ease-in-out;
-  font-size: 2rem;
+.card .buttons a:hover {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #portfolio .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #portfolio .cards-container .card {
+    width: 90%;
+    height: 55vh;
+  }
+  #portfolio .cards-container .card .buttons {
+    font-size: 1.5rem;
+  }
+  #portfolio .cards-container :nth-child(5) {
+    margin-bottom: 8rem;
+  }
 }/*# sourceMappingURL=Portfolio.css.map */

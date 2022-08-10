@@ -12,6 +12,17 @@ const Home = () => {
         <div className="content">
         <h2>Hello there!</h2>
         <img className='obi-wan' src={ObiWan} alt="" />
+        <div className="mobile-img">
+            <div className="mobile-img-container">
+                <img src={ProfileImage} alt="" />
+            </div>
+            <div className="social-icons">
+                <FaGithub />
+                <FaLinkedin />
+                <IoLogoWhatsapp />
+                <FaFacebookMessenger />
+            </div>
+        </div>
         <h4>I’m Isac Geisewall, Junior Frontend Developer and UX/UI-designer.</h4>
         <p>...and if you look closely in the background you’ll see the things I like outside of work!</p>
         <button className='btn-primary'>Download CV</button>

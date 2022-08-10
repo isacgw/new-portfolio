@@ -52,6 +52,10 @@
 
         .github {
             color: $github;
+            &:hover {
+                @include iconHover();
+
+            }
         }
     }
 }
@@ -67,5 +71,32 @@
 
     h3 {
         @include cardTitle();
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        .paragraphs {
+            width: 100%;
+
+            article {
+                margin: 2rem 2rem;
+
+                font-size: 1.3rem;
+            }
+
+            :nth-child(3) {
+                margin-bottom: 8rem;
+            }
+        }
     }
 }

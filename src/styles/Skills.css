@@ -25,4 +25,22 @@
   text-align: left;
   margin-left: 2rem;
   margin-top: 0.2rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-container .skill-card {
+    width: 60%;
+    height: 45vh;
+  }
+  .cards-container .skill-card .skills {
+    font-size: 1.5rem;
+  }
+  .cards-container .last {
+    margin-bottom: 8rem;
+  }
 }/*# sourceMappingURL=Skills.css.map */

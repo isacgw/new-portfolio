@@ -1,6 +1,10 @@
 import React from 'react'
 import '../styles/Portfolio.css'
 import Ecommerce from '../assets/Ecommerce3.png'
+import Recipe from '../assets/recipe.png'
+import Quiz from '../assets/quiz1.png'
+import Footygram from '../assets/Footygram1.png'
+
 
 const data = [
   {
@@ -17,16 +21,16 @@ const data = [
     title: "Recipe App",
     subTitle: "Frontend",
     techs: "React, Styled Components, Open API",
-    preImg: "",
-    repo: "",
+    preImg: Recipe,
+    repo: "https://github.com/isacgw/recipe-website",
     demo: ""
   },
   {
     id: "3",
-    title: "FootHopper App",
+    title: "Footygram App Concept",
     subTitle: "UX/UI Design",
     techs: "Figma, Photoshop",
-    preImg: "",
+    preImg: Footygram,
     repo: "",
     demo: ""
   },
@@ -35,8 +39,17 @@ const data = [
     title: "Simple Quiz",
     subTitle: "Frontend",
     techs: "Typescript, React, Styled Components",
-    preImg: "",
-    repo: "",
+    preImg: Quiz,
+    repo: "https://github.com/isacgw/typescript-quiz",
+    demo: ""
+  },
+  {
+    id: "5",
+    title: "Minecraft blog",
+    subTitle: "Frontend",
+    techs: "NextJS, GraphQL",
+    preImg: Quiz,
+    repo: "https://github.com/isacgw/typescript-quiz",
     demo: ""
   },
 ]
@@ -45,7 +58,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
         <h1>my projects</h1>
-        <div className="flex-row-center">
+        <div className="cards-container">
 
          {data.map(({id, title, subTitle, techs, preImg, repo, demo}) => {
           return (
