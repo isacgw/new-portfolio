@@ -14,7 +14,7 @@ const data = [
     techs: "React, Node JS, MongoDB, Express, Agile (Scrum)",
     preImg: Ecommerce,
     repo: "https://github.com/IanWallenberg/e-commerce-website",
-    demo: ""
+    demo: "https://github.com/IanWallenberg/e-commerce-website"
   },
   {
     id: "2",
@@ -23,7 +23,7 @@ const data = [
     techs: "React, Styled Components, Open API",
     preImg: Recipe,
     repo: "https://github.com/isacgw/recipe-website",
-    demo: ""
+    demo: "https://recipe-website-seven.vercel.app/"
   },
   {
     id: "3",
@@ -31,8 +31,8 @@ const data = [
     subTitle: "UX/UI Design",
     techs: "Figma, Photoshop",
     preImg: Footygram,
-    repo: "",
-    demo: ""
+    repo: "https://www.behance.net/gallery/150739745/Footygram?",
+    demo: "https://www.behance.net/gallery/150739745/Footygram?"
   },
   {
     id: "4",
@@ -41,16 +41,16 @@ const data = [
     techs: "Typescript, React, Styled Components",
     preImg: Quiz,
     repo: "https://github.com/isacgw/typescript-quiz",
-    demo: ""
+    demo: "https://typescript-quiz-psi.vercel.app/"
   },
   {
     id: "5",
-    title: "Minecraft blog",
+    title: "Minecraft Blog",
     subTitle: "Frontend",
-    techs: "NextJS, GraphQL",
+    techs: "NextJS, GraphQL, Tailwind CSS",
     preImg: Quiz,
-    repo: "https://github.com/isacgw/typescript-quiz",
-    demo: ""
+    repo: "https://github.com/isacgw/bj-minecraft-blog",
+    demo: "https://bj-minecraft-blog.vercel.app/"
   },
 ]
 

@@ -14,26 +14,36 @@ const About = () => {
             <img src={ProfileImage} alt="" />
           </div>
           <div className="social-icons">
-                <FaGithub className='github' />
-                <FaLinkedin className='linkedin' />
-                <IoLogoWhatsapp className='whatsapp' />
-                <FaFacebookMessenger className='messenger' />
+              <a href="https://github.com/isacgw" target="_blank"><FaGithub/></a>
+              <a href="https://www.linkedin.com/in/isac-geisewall-6a716b21b/" target="_blank"><FaLinkedin/></a>
+              <a href="https://wa.me/+46722217972" target={'_blank'}><IoLogoWhatsapp /></a>
+              <a href="https://m.me/isac.geisewall/" target={'_blank'}><FaFacebookMessenger /></a>
             </div>
         </div>
         <div className="paragraphs">
           <article>
             <h3>A LITTLE HISTORY:</h3>
-            <p>I've been studying both economics and 3D-visualization but realized nothing of
-              that was for me. During the pandemic I experimented with an old hobby of mine - programming.
-              Then I knew this is what I want to do - finally!
+            <p>I've had a few years where I've been trying to figure out what I want to do with my life.
+              I've been studying economics in Stockholm, 3D-visualization in Eksjö and working at a PWS
+              care home. At the end of 2020 I was bored and tried an old hobby of mine - programming.
+              <br/>
+              <br/>
+              I re-discovered my passion for it and in 2021 I applied to Hyper Island Stockholm and the 
+              Frontend developer program and for the first time in my life really I felt that I was in the
+              right place.
             </p>
           </article>
           <article>
             <h3>WHY FRONTEND?</h3>
             <p>When I found out that you could combine designing with programming it almost felt
               a little too good to be true. It's quite simple actually, I like designing and I enjoy
-              programming and Frontend development is the best of both worlds. From a personal perspective
-              working in the Frontend field and environment that comes with it would give me the opportunity to live the life I 
+              programming and Frontend development is the best of both worlds. I see a lot of similarities
+              between Frontend and Minecraft (on of my favorite games!). You know what you want to build, now
+              you just have to figure out how to do it. 
+              <br/>
+              <br/>
+              Talking from a personal perspective
+              working in the Frontend field and the environment that comes with it would give me the opportunity to live the life I 
               want to live - at work but also outside of it.
             </p>
           </article>

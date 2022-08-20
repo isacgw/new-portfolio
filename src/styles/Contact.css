@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+/* GRADIENTS: */
 .contact-container {
   margin-top: 1rem;
   display: flex;
@@ -58,6 +60,7 @@ input, textarea {
   font-size: 1rem;
 }
 
+/* ------------- SMALL SCREENS ------------- */
 @media only screen and (max-device-width: 480px) {
   .contact-container {
     margin-top: 1rem;
@@ -68,5 +71,53 @@ input, textarea {
   }
   form {
     width: 90%;
+  }
+}
+/* ------------- MEDIUM SCREENS ------------- */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .contact-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  form {
+    width: 90%;
+  }
+  .contact-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .contact-options .contact-option {
+    padding: 1.2rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid lightgrey;
+    background: transparent;
+  }
+  .contact-options .contact-option .contact-option-icon {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .contact-options .contact-option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  .contact-options .contact-option h4 {
+    font-size: 1.5rem;
+  }
+  .contact-options .contact-option h5 {
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
   }
 }/*# sourceMappingURL=Contact.css.map */

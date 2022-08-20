@@ -6,9 +6,9 @@
 
 #portfolio {
 
-    background: url('../assets/bg-desktop-10.png');
-    background-repeat: repeat;
-    background-size: contain;
+    // background: url('../assets/bg-desktop-10.png');
+    // background-repeat: repeat;
+    // background-size: contain;
 
     min-height: 178vh;
 
@@ -112,6 +112,65 @@
 
         :nth-child(5) {
             margin-bottom: 8rem;
+        }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+    #portfolio {
+
+
+        .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .card {
+            width: 60%;
+            height: 52vh;
+
+            .buttons {
+
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 2.8rem;
+                margin-top: 1rem;
+            }
+
+            h5 {
+                font-size: 2.2rem;
+            }
+
+            p {
+                font-size: 1.7rem;
+            }
+            
+        }
+
+        .buttons {
+            margin-top: 3rem;
+    
+            a {
+                margin: 0 .5rem;
+
+                font-size: 2rem;
+    
+                transition: .5s ease-in-out;
+    
+                &:hover {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        :nth-child(5) {
+            margin-bottom: 10rem;
         }
         }
     }

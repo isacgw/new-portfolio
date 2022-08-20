@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 /* GRADIENTS: */
 #portfolio {
-  background: url("../assets/bg-desktop-10.png");
-  background-repeat: repeat;
-  background-size: contain;
   min-height: 178vh;
 }
 #portfolio h1 {
@@ -82,5 +79,43 @@
   }
   #portfolio .cards-container :nth-child(5) {
     margin-bottom: 8rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  #portfolio .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #portfolio .cards-container .card {
+    width: 60%;
+    height: 52vh;
+  }
+  #portfolio .cards-container .card .buttons {
+    font-size: 1.5rem;
+  }
+  #portfolio .cards-container .card h3 {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+  }
+  #portfolio .cards-container .card h5 {
+    font-size: 2.2rem;
+  }
+  #portfolio .cards-container .card p {
+    font-size: 1.7rem;
+  }
+  #portfolio .cards-container .buttons {
+    margin-top: 3rem;
+  }
+  #portfolio .cards-container .buttons a {
+    margin: 0 0.5rem;
+    font-size: 2rem;
+    transition: 0.5s ease-in-out;
+  }
+  #portfolio .cards-container .buttons a:hover {
+    font-size: 1.2rem;
+  }
+  #portfolio .cards-container :nth-child(5) {
+    margin-bottom: 10rem;
   }
 }/*# sourceMappingURL=Portfolio.css.map */

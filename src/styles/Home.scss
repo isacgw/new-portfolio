@@ -35,15 +35,25 @@ header {
 
     h4 {
         font-weight: 300;
-        font-size: 2rem;
+        font-size: 2.4rem;
         margin: 1rem 0;
     }
 
     p {
         color: orange;
+        font-size: 1.3rem;
     }
 
-    button {
+    .cta {
+
+        display: inline-block;
+
+        background: $mainGradient;
+        padding: 1rem 1rem;
+        color: white;
+        border: none;
+        border-radius: 2rem;
+
         font-size: 1.4rem;
         margin-top: 1rem;
         transition: .5s ease-in-out;
@@ -53,6 +63,7 @@ header {
         &:hover {
             @include btnHoverAnimation();
         }
+
     }
 
     }
@@ -83,11 +94,15 @@ header {
         }
 
         .social-icons {
-            font-size: 1.5rem;
+            font-size: 1.9rem;
             margin: 1rem 0;
             display: flex;
             gap: 1rem;
             color: $mainOrange;
+
+            a {
+                color: $mainOrange;
+            }
 
             svg {
 
@@ -102,6 +117,8 @@ header {
         }
     }
 }
+
+/* ----- MOBILE SCREENS ----- */
 
 @media only screen and (max-device-width: 480px) {
 
@@ -119,6 +136,10 @@ header {
             width: 100%;
             margin-top: 6rem;
 
+            h4 {
+                font-size: 2.2rem;
+            }
+
             p {
                 font-size: 1.3rem;
                 margin-left: .5rem;
@@ -131,6 +152,11 @@ header {
 
             .obi-wan {
                 display: none;
+            }
+
+            .cta {
+                font-size: 2rem;
+                margin-top: 1.7rem;
             }
         }
 
@@ -147,8 +173,8 @@ header {
     
             .mobile-img-container {
                 background: green;
-                height: 15rem;
-                width: 15rem;
+                height: 10rem;
+                width: 10rem;
                 border-radius: 50%;
     
                 img {
@@ -160,11 +186,15 @@ header {
             }
     
             .social-icons {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
                 margin: 1rem 0;
                 display: flex;
                 gap: 1rem;
                 color: $mainOrange;
+    
+                a {
+                    color: $mainOrange;
+                }
     
                 svg {
     
@@ -182,4 +212,98 @@ header {
     }
     
 
+}
+
+// /* ----- MEDIUM SCREENS ----- */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    
+    header {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        .content {
+            width: 100%;
+            margin-top: 6rem;
+
+            h4 {
+                font-size: 3.5rem;
+                margin: 1rem 1rem;
+            }
+
+            p {
+                font-size: 1.8rem;
+                margin-left: .5rem;
+                margin-right: .5rem;
+            }
+
+            .obi-wan {
+                display: none;
+            }
+
+            .cta {
+                font-size: 3rem;
+
+                margin-top: 1.7rem;
+                padding: 1.5rem;
+
+                border-radius: 2rem;
+            }
+        }
+
+        .img {
+            display: none;
+        }
+
+        .mobile-img {
+
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .mobile-img-container {
+                background: green;
+                height: 18rem;
+                width: 18rem;
+                border-radius: 50%;
+    
+                img {
+                    border-radius: 50%;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    }
+            }
+    
+            .social-icons {
+                font-size: 2.6rem;
+                margin: 1rem 0;
+                display: flex;
+                gap: 1rem;
+                color: $mainOrange;
+    
+                a {
+                    color: $mainOrange;
+                }
+    
+                svg {
+    
+                    transition: .5s ease-in-out;
+                    cursor: pointer;
+    
+                    &:hover {
+                        @include btnHoverAnimation();
+                    }
+                }
+                
+            }
+        }
+
+    }
 }

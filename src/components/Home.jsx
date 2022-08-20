@@ -4,6 +4,7 @@ import '../styles/Home.css'
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFacebookMessenger } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import ObiWan from '../assets/obi-wan.png'
+import CV from '../assets/CV-Isac-Geisewall.pdf'
 
 const Home = () => {
   return (
@@ -17,25 +18,25 @@ const Home = () => {
                 <img src={ProfileImage} alt="" />
             </div>
             <div className="social-icons">
-                <FaGithub />
-                <FaLinkedin />
-                <IoLogoWhatsapp />
-                <FaFacebookMessenger />
+            <a href="https://github.com/isacgw" target="_blank"><FaGithub/></a>
+                <a href="https://www.linkedin.com/in/isac-geisewall-6a716b21b/" target="_blank"><FaLinkedin/></a>
+                <a href="https://wa.me/+46722217972" target={'_blank'}><IoLogoWhatsapp /></a>
+                <a href="https://m.me/isac.geisewall/" target={'_blank'}><FaFacebookMessenger /></a>
             </div>
         </div>
-        <h4>I’m Isac Geisewall, Junior Frontend Developer and UX/UI-designer.</h4>
+        <h4>I’m Isac Geisewall, Junior Frontend Developer, UX/UI-designer and Hyper Island student.</h4>
         <p>...and if you look closely in the background you’ll see the things I like outside of work!</p>
-        <button className='btn-primary'>Download CV</button>
+        <a href={CV} download className='cta'>Download CV</a>
         </div>
         <div className="img">
             <div className="img-container">
                 <img src={ProfileImage} alt="" />
             </div>
             <div className="social-icons">
-                <FaGithub />
-                <FaLinkedin />
-                <IoLogoWhatsapp />
-                <FaFacebookMessenger />
+            <a href="https://github.com/isacgw" target="_blank"><FaGithub/></a>
+                <a href="https://www.linkedin.com/in/isac-geisewall-6a716b21b/" target="_blank"><FaLinkedin/></a>
+                <a href="https://wa.me/+46722217972" target={'_blank'}><IoLogoWhatsapp /></a>
+                <a href="https://m.me/isac.geisewall/" target={'_blank'}><FaFacebookMessenger /></a>
             </div>
         </div>
     </header>
