@@ -11,7 +11,7 @@ const Skills = () => {
             <h3>FRONTEND</h3>
             <h5>What I Know:</h5>
             <ul className='skills'>
-              <li>HTML, CSS JS</li>
+              <li>HTML, CSS, JS</li>
               <li>React JS</li>
               <li>Sass/SCSS</li>
               <li>Next JS</li>
@@ -49,7 +49,7 @@ const Skills = () => {
             </ul>
             <h5>What I want to learn next:</h5>
             <ul className='skills'>
-              <li>AdobeXD</li>
+              <li>Data visualization</li>
               <li>UX/UI principles</li>
             </ul>
           </article>

@@ -28,8 +28,8 @@ const About = () => {
               care home. At the end of 2020 I was bored and tried an old hobby of mine - programming.
               <br/>
               <br/>
-              I re-discovered my passion for it and in 2021 I applied to Hyper Island Stockholm and the 
-              Frontend developer program and for the first time in my life really I felt that I was in the
+              I re-discovered my passion for it and in 2021 I applied to the Frontend Developer
+              program at Hyper Island in Stockholm and for the first time in my life really I felt that I was in the
               right place.
             </p>
           </article>

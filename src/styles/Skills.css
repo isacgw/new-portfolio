@@ -27,11 +27,13 @@
   margin-top: 0.2rem;
 }
 
+/* -- SMALL SCREENS -- */
 @media only screen and (max-device-width: 480px) {
   .cards-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
   }
   .cards-container .skill-card {
     width: 15rem;
@@ -39,9 +41,6 @@
   }
   .cards-container .skill-card .skills {
     font-size: 1.5rem;
-  }
-  .cards-container .last {
-    margin-bottom: 8rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {

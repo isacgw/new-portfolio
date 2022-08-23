@@ -35,12 +35,16 @@
     }
 }
 
+/* -- SMALL SCREENS -- */
+
 @media only screen and (max-device-width: 480px) {
 
     .cards-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        margin-bottom: 2rem;
 
         .skill-card {
             width: 15rem;
@@ -50,10 +54,6 @@
                 font-size: 1.5rem;
             }
 
-        }
-
-        .last {
-            margin-bottom: 8rem;
         }
     }
 }

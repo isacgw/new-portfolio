@@ -23,6 +23,8 @@
     gap: 2rem;
     flex-wrap: wrap;
 
+    padding-bottom: 8rem;
+
     :hover {
         cursor: pointer;
     }
@@ -30,8 +32,8 @@
 
 .card {
     
-    height: 65vh;
-    width: 25%;
+    height: 25rem;
+    width: 21rem;
 
     margin: .5rem .6rem;
     border-radius: 1.5rem;
@@ -104,7 +106,7 @@
 
         .card {
             width: 90%;
-            height: 55vh;
+            height: 28rem;
 
             .buttons {
 
@@ -114,7 +116,7 @@
         }
 
         :last-child {
-            margin-bottom: 8rem;
+            margin-bottom: 2rem;
         }
         }
     }

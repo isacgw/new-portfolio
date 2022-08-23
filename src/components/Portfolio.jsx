@@ -4,6 +4,7 @@ import Ecommerce from '../assets/Ecommerce3.png'
 import Recipe from '../assets/recipe.png'
 import Quiz from '../assets/quiz1.png'
 import Footygram from '../assets/Footygram1.png'
+import Minecraft from '../assets/minecraft.png'
 
 
 const data = [
@@ -47,8 +48,8 @@ const data = [
     id: "5",
     title: "Minecraft Blog",
     subTitle: "Frontend",
-    techs: "NextJS, GraphQL, Tailwind CSS",
-    preImg: Quiz,
+    techs: "NextJS, GraphCMS, Tailwind CSS",
+    preImg: Minecraft,
     repo: "https://github.com/isacgw/bj-minecraft-blog",
     demo: "https://bj-minecraft-blog.vercel.app/"
   },

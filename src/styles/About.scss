@@ -68,6 +68,8 @@
         @include cardTitle();
         opacity: 40%;
     }
+
+    margin-bottom: 8rem;
 }
 
 /* ------------- SMALL SCREENS ------------- */
@@ -84,6 +86,7 @@
 
         .paragraphs {
             width: 100%;
+            margin-bottom: 4rem;
 
             article {
                 margin: 2rem 2rem;
@@ -120,10 +123,6 @@
                 h3 {
                     font-size: 2.4rem;
                 }
-            }
-
-            :nth-child(3) {
-                margin-bottom: 12rem;
             }
         }
     }
