@@ -34,8 +34,8 @@
     align-items: center;
   }
   .cards-container .skill-card {
-    width: 60%;
-    height: 45vh;
+    width: 15rem;
+    height: 25rem;
   }
   .cards-container .skill-card .skills {
     font-size: 1.5rem;

@@ -64,6 +64,7 @@
   font-size: 1.2rem;
 }
 
+/* --- SMALL SCREENS --- */
 @media only screen and (max-device-width: 480px) {
   #portfolio .cards-container {
     display: flex;
@@ -76,11 +77,13 @@
   }
   #portfolio .cards-container .card .buttons {
     font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
-  #portfolio .cards-container :nth-child(5) {
+  #portfolio .cards-container :last-child {
     margin-bottom: 8rem;
   }
 }
+/* --- MEDIUM SCREENS --- */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   #portfolio .cards-container {
     display: flex;

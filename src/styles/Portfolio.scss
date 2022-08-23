@@ -89,6 +89,8 @@
     }
 }
 
+/* --- SMALL SCREENS --- */
+
 @media only screen and (max-device-width: 480px) {
 
     #portfolio {
@@ -107,16 +109,18 @@
             .buttons {
 
                 font-size: 1.5rem;
+                margin-bottom: 2rem;
             }
         }
 
-        :nth-child(5) {
+        :last-child {
             margin-bottom: 8rem;
         }
         }
     }
 }
 
+/* --- MEDIUM SCREENS --- */
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
