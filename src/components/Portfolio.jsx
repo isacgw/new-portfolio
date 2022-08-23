@@ -4,7 +4,7 @@ import Ecommerce from '../assets/Ecommerce3.png'
 import Recipe from '../assets/recipe.png'
 import Quiz from '../assets/quiz1.png'
 import Footygram from '../assets/Footygram1.png'
-import Minecraft from '../assets/minecraft.png'
+import Minecraft from '../assets/mc.png'
 
 
 const data = [
