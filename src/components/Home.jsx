@@ -4,7 +4,7 @@ import '../styles/Home.css'
 import { FaGithub, FaLinkedin, FaWhatsappSquare, FaFacebookMessenger } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import ObiWan from '../assets/obi-wan.png'
-import CV from '../assets/CV-Isac-Geisewall.pdf'
+import CV from '../assets/CV-isacgw.pdf'
 
 const Home = () => {
   return (

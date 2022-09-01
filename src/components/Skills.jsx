@@ -15,12 +15,12 @@ const Skills = () => {
               <li>React JS</li>
               <li>Sass/SCSS</li>
               <li>Next JS</li>
+              <li>Tailwind CSS</li>
             </ul>
             <h5>What I want to learn next:</h5>
             <ul className='skills'>
               <li>TypeScript</li>
-              <li>Gatsby</li>
-              <li>Tailwind CSS</li>
+              <li>React Native</li>
             </ul>
           </article>
 
